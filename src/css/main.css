@@ -158,6 +158,10 @@ h1 {
     color: hotpink;
 }
 
+#logo {
+    
+}
+
 h2 {
     font-size: 36px;
     background: violet;
@@ -198,6 +202,11 @@ nav {
     left: 0;
     right: 0;
     width: 100%;
+}
+
+nav:hover {
+    background: hotpink;
+    height: 50vh;
 }
 
 nav ul {
