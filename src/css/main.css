@@ -274,11 +274,12 @@ section.grid div.grid-item {
 
 input[type="text"] {
     background: yellow;
-    width: 50%;
+    width: 100%;
     line-height: 2;
 }
 
 input[type="submit"] {
+    width: 100%;
     background: red;
 }
 
