@@ -1,11 +1,19 @@
 console.log('Hello world!');
 
 var headerHeight = null;
+var documentHeight = null;
+
+function scrollToTop() {
+	$(window).scrollTop(0);
+}
 
 $(document).ready(function() {
 	console.log('ready');
 	headerHeight = $('header').height();
-	console.log(headerHeight);
+	documentHeight = $(document).height();
+	$('.scroll-to-top').click(function() {
+		scrollToTop();
+	});
 });
 
 $(window).resize(function() {
@@ -21,6 +29,16 @@ $(window).scroll(function() {
 	} else {
 		$('nav').css({
 			'position': 'absolute'
+		});
+	}
+	var scrollTotal = scrollAmount + $(window).height();
+	if (scrollTotal > documentHeight) {
+		$('.scroll-to-top').css({
+			'display': 'block'
+		});
+	} else {
+		$('.scroll-to-top').css({
+			'display': 'none'
 		});
 	}
 });

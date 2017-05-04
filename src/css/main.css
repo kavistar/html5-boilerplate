@@ -303,6 +303,10 @@ footer {
     text-align: center;
 }
 
+button.scroll-to-top {
+    display: none;
+}
+
 
 /* ==========================================================================
    Helper classes
