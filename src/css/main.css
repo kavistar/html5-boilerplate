@@ -58,7 +58,7 @@ table {
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #244;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -196,7 +196,7 @@ blockquote {
 }
 
 nav {
-    background: yellow;
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -205,7 +205,7 @@ nav {
 }
 
 nav:hover {
-    background: hotpink;
+    background: turquoise;
     height: 50vh;
 }
 
@@ -227,7 +227,7 @@ aside {
 }
 
 section {
-    background: blue;
+    background: turquoise;
     max-width: 960px;
     margin: auto;
     width: 100%;
