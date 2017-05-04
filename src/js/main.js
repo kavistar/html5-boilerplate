@@ -1,7 +1,11 @@
 console.log('Hello world!');
 
+var headerHeight = null;
+
 $(document).ready(function() {
 	console.log('ready');
+	headerHeight = $('header').height();
+	console.log(headerHeight);
 });
 
 $(window).resize(function() {
@@ -9,5 +13,14 @@ $(window).resize(function() {
 });
 
 $(window).scroll(function() {
-	console.log('scroll');
+	var scrollAmount = $(window).scrollTop();
+	if (scrollAmount > headerHeight) {
+		$('nav').css({
+			'position': 'fixed'
+		});
+	} else {
+		$('nav').css({
+			'position': 'absolute'
+		});
+	}
 });
