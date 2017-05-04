@@ -142,7 +142,7 @@ body {
 }
 
 header {
-    background-image: url('../img/image.jpeg');
+    background-image: url('../img/3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -245,7 +245,7 @@ section.video video {
 
 section.video h3 {
     position: absolute;
-    color: hotpink;
+    color: white;
     width: 100%;
     text-align: center;
     margin: -8px 0 0;
