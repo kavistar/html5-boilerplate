@@ -196,12 +196,18 @@ blockquote {
 }
 
 nav {
+<<<<<<< HEAD
     background: white;
     position: fixed;
+=======
+    background: yellow;
+    position: absolute;
+>>>>>>> JohnPett/master
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 9999;
 }
 
 nav:hover {
@@ -235,7 +241,7 @@ section {
 }
 
 section.video {
-    max-width: 100%;
+    max-width: 50%;
     position: relative;
 }
 
@@ -274,11 +280,12 @@ section.grid div.grid-item {
 
 input[type="text"] {
     background: yellow;
-    width: 50%;
+    width: 100%;
     line-height: 2;
 }
 
 input[type="submit"] {
+    width: 100%;
     background: red;
 }
 
@@ -300,6 +307,12 @@ footer {
     clear: both;
     width: 100%;
     text-align: center;
+}
+
+button.scroll-to-top {
+    display: none;
+    width: 100%;
+    background: pink;
 }
 
 
