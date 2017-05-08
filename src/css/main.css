@@ -154,7 +154,7 @@ header h1 {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     color: ghostwhite;
      width: 100%;
     text-align: center;
@@ -271,8 +271,8 @@ section.grid div.grid-item {
 }
 
 input[type="text"] {
-    background: yellow;
-    width: 100%;
+    background: white;
+    width: 20%;
     line-height: 2;
 }
 
