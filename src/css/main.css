@@ -157,7 +157,7 @@ h1 {
     font-size: 60px;
     color: ghostwhite;
      width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 0 0 10px;
 }
 
@@ -218,7 +218,7 @@ nav li {
 }
 
 aside {
-    background: green;
+    background: turquoise;
     width: 25%;
     float: left;
     display: block;
