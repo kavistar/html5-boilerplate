@@ -156,6 +156,9 @@ header h1 {
 h1 {
     font-size: 30px;
     color: ghostwhite;
+     width: 100%;
+    text-align: center;
+    margin: 0 0 10px;
 }
 
 #logo {
@@ -164,7 +167,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    background: violet;
+    background: white;
     width: 100%;
     text-align: center;
     margin: 0 0 10px;
@@ -196,18 +199,7 @@ blockquote {
 }
 
 nav {
-<<<<<<< HEAD
-    background: white;
-    position: fixed;
-=======
-    background: yellow;
-    position: absolute;
->>>>>>> JohnPett/master
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9999;
+
 }
 
 nav:hover {
@@ -285,8 +277,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    width: 100%;
-    background: red;
+    width: 10%;
+    background: blue;
 }
 
 article {
