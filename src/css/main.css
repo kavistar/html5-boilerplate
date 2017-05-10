@@ -218,14 +218,14 @@ nav li {
 }
 
 aside {
-    background: turquoise;
-    width: 25%;
-    float: left;
+    background: aliceblue;
+    width: 100%;
+    float: center;
     display: block;
 }
 
 section {
-    background: turquoise;
+    background: cadetblue;
     max-width: 960px;
     margin: auto;
     width: 100%;
@@ -278,6 +278,8 @@ section.grid div.grid-item img {
     max-width: 100%;
 }
 
+section.tagline article{width:100%;}
+
 input[type="text"] {
     background: white;
     width: 20%;
@@ -290,7 +292,7 @@ input[type="submit"] {
 }
 
 article {
-    background: orange;
+    background: aliceblue;
     width: 75%;
     float: left;
     display: block;
@@ -302,7 +304,7 @@ article img {
 }
 
 footer {
-    background: red;
+    background: aliceblue;
     float: left;
     clear: both;
     width: 100%;
