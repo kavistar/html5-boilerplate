@@ -184,12 +184,17 @@ h4 {
 
 h5 {
     font-size:  28px;
+    background: #ccfff2;  
     text-align: center;
-    width:30%;
+    width:30;
     margin: 0 0 10px;
 }
 
 h6 {
+    font-size:  28px;
+    background: #ccfff2;  
+    text-align: center;
+    width:30;
     margin: 0 0 10px;
 }
 
@@ -263,7 +268,7 @@ section.video button {
 section.grid {
     text-align: center;
     overflow: visible;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 section.grid div.grid-item {
