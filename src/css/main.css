@@ -202,11 +202,6 @@ nav {
 
 }
 
-nav:hover {
-    background: white;
-    height: 50vh;
-}
-
 nav ul {
     list-style: none;
     text-align: center;
@@ -264,6 +259,8 @@ section.video button {
 
 section.grid {
     text-align: center;
+    overflow: visible;
+    padding-bottom: 20px;
 }
 
 section.grid div.grid-item {
@@ -272,13 +269,16 @@ section.grid div.grid-item {
     height: 150px;
     background: salmon;
     display: inline-block;
+  
 }
 
 section.grid div.grid-item img {
     max-width: 100%;
 }
 
-section.tagline article{width:100%;}
+section.tagline article{
+    width:100%;
+}
 
 input[type="text"] {
     background: white;
