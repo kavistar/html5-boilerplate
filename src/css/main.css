@@ -197,7 +197,13 @@ h6 {
     width:30;
     margin: 0 0 10px;
 }
-
+h7 {
+    font-family: 'Kaushan Script', cursive;;
+    font-size:  28px;
+    background: #ccfff2;  
+    text-align: center;
+    width:30;
+    margin: 0 0 10px;
 p {
     margin: 0 0 10px;
 }
