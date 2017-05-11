@@ -211,6 +211,7 @@ nav {
 }
 
 nav ul {
+    Background: aliceblue;
     list-style: none;
     text-align: center;
     padding: 10px;
@@ -250,7 +251,7 @@ section.video iframe{
 
 section.video h3 {
     position: absolute;
-    color: white;
+    color: aliceblue;
     width: 100%;
     text-align: center;
     margin: -8px 0 0;
@@ -275,7 +276,7 @@ section.grid div.grid-item {
     width: 25%;
     margin: 50px 0;
     height: 150px;
-    background: salmon;
+    background: cadetblue;
     display: inline-block;
   
 }
@@ -297,7 +298,7 @@ section.tagline article{
 }
 
 input[type="text"] {
-    background: white;
+    background: aliceblue;
     width: 20%;
     line-height: 2;
 }
