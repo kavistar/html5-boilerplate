@@ -307,12 +307,12 @@ section.tagline article{
 input[type="text"] {
     background: aliceblue;
     width: 20%;
-    line-height: 2;
+    line-height: 1;
 }
 
 input[type="submit"] {
-    width: 10%;
-    background: blue;
+    width: 30%;
+    background: cadetblue;
 }
 
 article {
