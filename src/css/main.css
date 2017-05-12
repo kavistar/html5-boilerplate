@@ -149,7 +149,7 @@ header {
 }
 
 header h1 {
-    text-align: center;
+    text-align: left;
     padding: 40vh 0;
 }
 
@@ -220,7 +220,7 @@ nav {
 nav ul {
     Background: aliceblue;
     list-style: none;
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }
 
