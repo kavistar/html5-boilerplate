@@ -146,11 +146,15 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 80vh;
+    position: relative;
 }
 
 header h1 {
+    position: absolute;
     text-align: left;
-    padding: 40vh 0;
+    bottom: 99px;
+    left: 0;
 }
 
 h1 {
@@ -226,6 +230,15 @@ nav ul {
 
 nav li {
     display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+nav li a:hover{
+color: ghostwhite
 }
 
 aside {
@@ -325,6 +338,26 @@ article {
 article img {
     width: 100%;
     height: auto;
+}
+
+.social .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 
 footer {
