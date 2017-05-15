@@ -238,7 +238,7 @@ nav li a{
 }
 
 nav li a:hover{
-color: ghostwhite
+color: darkblue
 }
 
 aside {
@@ -319,12 +319,12 @@ section.tagline article{
 
 input[type="text"] {
     background: aliceblue;
-    width: 20%;
+    width: 10%;
     line-height: 1;
 }
 
 input[type="submit"] {
-    width: 30%;
+    width: 20%;
     background: cadetblue;
 }
 
