@@ -340,11 +340,11 @@ article img {
     height: auto;
 }
 
-.social .fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    border-radius: 50%;
+.social .fa {
+    padding: 18px;
+    font-size: 70px;
+    width: 60px;
+    border-radius: 71%;
     text-decoration: none;
     margin: 5px 2px;
 }
@@ -358,6 +358,12 @@ article img {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+    background:chocolate;
+    color:white;
 }
 
 footer {
