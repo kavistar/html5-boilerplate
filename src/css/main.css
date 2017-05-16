@@ -295,10 +295,23 @@ section.grid {
 section.grid div.grid-item {
     width: 25%;
     margin: 50px 0;
-    height: 150px;
+    height: auto;
     background: cadetblue;
     display: inline-block;
+    position: relative;
   
+}
+
+section.grid div.grid-item.active .hoverbox {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+section.grid div.grid-item:not(.active) .hoverbox {
+    display: none;
 }
 
 section.grid div.grid-item-2 {
