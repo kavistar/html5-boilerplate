@@ -317,6 +317,11 @@ section.tagline article{
     width:100%;
 }
 
+div.container {
+    width: 100%;
+    border: 20px solid aliceblue;
+}
+
 input[type="text"] {
     background: aliceblue;
     width: 10%;
@@ -331,7 +336,7 @@ input[type="submit"] {
 article {
     background: aliceblue;
     width: 75%;
-    float: left;
+    float: right;
     display: block;
 }
 
@@ -347,6 +352,7 @@ article img {
     border-radius: 71%;
     text-decoration: none;
     margin: 5px 2px;
+    float: left 
 }
 
 .fa-facebook {
