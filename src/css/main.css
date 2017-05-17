@@ -206,6 +206,7 @@ h6 {
 p {
     margin: 0 0 10px;
     font-family: 'Josefin Slab', serif;
+    text-align: center;
 }
 h7 {
     font-family: 'Kaushan Script', cursive;
@@ -216,6 +217,14 @@ h7 {
 }
 blockquote {
     margin: 0 0 10px;
+    font-family: 'Josefin Slab', serif;
+    text-align: left;
+    padding:2%;
+    text-indent: bottom right
+}
+
+cite {
+    font-family: 'Satisfy', cursive;
 }
 
 nav {
@@ -227,6 +236,7 @@ nav ul {
     list-style: none;
     text-align: left;
     padding: 10px;
+
 }
 
 nav li {
@@ -251,7 +261,7 @@ aside {
 
 section {
     background: cadetblue;
-    max-width: 960px;
+    max-width: 990px;
     margin: auto;
     width: 100%;
     overflow: auto;
@@ -328,8 +338,10 @@ section.grid img {
 }
 
 section.tagline article{
-    width:100%;
+    width: 100%;
+    padding: 10px
 }
+
 
 div.container {
     width: 100%;
@@ -349,9 +361,10 @@ input[type="submit"] {
 
 article {
     background: aliceblue;
-    width: 75%;
+    width: 100%;
     float: right;
     display: block;
+
 }
 
 article img {
@@ -372,18 +385,25 @@ article img {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    padding: 20px;
+    border-radius: 70px;
 }
+
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    padding: 20px;
+    border-radius: 70px;
 }
 
 /*Instagram*/
 .fa-instagram {
     background:chocolate;
     color:white;
+    padding: 20px;
+    border-radius: 70px;
 }
 
 footer {
