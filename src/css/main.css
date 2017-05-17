@@ -153,14 +153,14 @@ header {
 header h1 {
     position: absolute;
     text-align: left;
-    bottom: 99px;
+    bottom: 166px;
     left: 0;
 }
 
 h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family:'Homemade Apple', cursive;
     font-size: 60px;
-    color: ghostwhite;
+    color: lightgrey;
     width: 100%;
     text-align: left;
     
@@ -382,9 +382,9 @@ article img {
 }
 
 .social .fa {
-    padding: 18px;
-    font-size: 70px;
-    width: 60px;
+    padding: 3px;
+    font-size: 45px;
+    width: 52px;
     border-radius: 71%;
     text-align: center;
     border-radius: 71%;
