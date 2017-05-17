@@ -189,10 +189,11 @@ h4 {
 
 h5 {
     font-size:  28px;
-    background: #ccfff2;  
+    font-family: 'Kaushan Script', cursive;
+    background: rgba(95, 158, 160, 0.73);  
     text-align: center;
     width:30;
-    margin: 0 0 10px;
+    margin: 0 0 0px;
 }
 
 h6 {
@@ -262,7 +263,7 @@ aside {
 
 section {
     background: cadetblue;
-    max-width: 990px;
+    max-width: 100%;
     margin: auto;
     width: 100%;
     overflow: auto;
