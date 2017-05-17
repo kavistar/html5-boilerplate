@@ -206,23 +206,27 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px;
+    margin: 10px 1px 10px;;
     font-family: 'Josefin Slab', serif;
-    text-align: center;
+    text-align: left;
+    
 }
+
 h7 {
     font-family: 'Kaushan Script', cursive;
     font-size:  28px;
-    text-align: left;
+    text-align: justify-all;
     width:30;
     margin: 0 0 10px;
 }
 blockquote {
     margin: 0 0 10px;
     font-family: 'Josefin Slab', serif;
+    font-size: 20px;
     text-align: left;
     padding:2%;
     text-indent: bottom right
+    text-indent: 40px;
 }
 
 cite {
@@ -331,7 +335,7 @@ section.grid div.grid-item:not(.active) .hoverbox {
 }
 
 section.grid div.grid-item-2 {
-    width: 49%;
+    width: 450px;
     margin: 50px 0;
     background: cadetblue;
     display: inline-block;
