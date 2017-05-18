@@ -209,14 +209,11 @@ p {
     margin: 10px 1px 10px;;
     font-family: 'Josefin Slab', serif;
     text-align: left;
-    
 }
 
 h7 {
     font-family:'Homemade Apple', cursive;
     font-size:  28px;
-    text-align: justify-all;
-    width:30;
     margin: 0 0 10px;
 }
 blockquote {
@@ -225,8 +222,6 @@ blockquote {
     font-size: 20px;
     text-align: left;
     padding:2%;
-    text-indent: bottom right
-    text-indent: 40px;
 }
 
 cite {
@@ -379,8 +374,15 @@ input[type="text"] {
     background: aliceblue;
     width: inherit;
     line-height: 1;
+    font-family: fantasy;
 }
 
+input[type="email"] {
+    background: aliceblue;
+    width: inherit;
+    line-height: 1;
+    font-family: fantasy;
+}
 input[type="submit"] {
     width: inherit;
     background: cadetblue;
@@ -444,6 +446,11 @@ article img {
     border-radius: 70px;
     text-decoration: none;
     text-align: center;
+}
+
+h9{
+    font-family: 'Homemade Apple', cursive;
+    padding-left: 139px;
 }
 
 footer {
