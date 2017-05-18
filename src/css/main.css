@@ -273,6 +273,19 @@ section {
     overflow: auto;
 }
 
+section.grid button {
+    position: absolute;
+    /* bottom: 42px; */
+    left: 44%;
+    margin-left: -16px;
+    margin-top: -17px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    border-color: white;
+    border-width: 5px;
+    background-color: cadetblue;
+}
+
 section.video {
     position: relative;
 }
@@ -384,6 +397,10 @@ article {
 article img {
     width: 100%;
     height: auto;
+}
+
+.grid .fa{
+    width: 20px;
 }
 
 .social .fa {
