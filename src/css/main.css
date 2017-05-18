@@ -297,10 +297,15 @@ section.video h3 {
 
 section.video button {
     position: absolute;
-    bottom: 59px;
-    left: 48%;
+    bottom: 42px;
+    left: 47%;
     margin-left: -19px;
     font-family: 'Roboto Mono', monospace;
+    color: black;
+    border-color: white;
+    border-width: 5px;
+    background-color: cadetblue;
+
 }
 
 section.grid {
